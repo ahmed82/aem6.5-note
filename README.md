@@ -22,6 +22,8 @@ Adobe Experience Manager 6.5
 
 ![image](https://github.com/user-attachments/assets/e83f2190-f27e-47b0-9bbb-48e34c79698a)
 
+# Dispatcher
+![image](https://github.com/user-attachments/assets/e8038c5c-71be-4514-86ac-a734fbe6f12f)
 
 
 
