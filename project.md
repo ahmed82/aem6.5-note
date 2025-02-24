@@ -14,9 +14,20 @@ mvn -B archetype:generate \
   -DgroupId="com.myaem" \
   -DartifactId="myaem-project" \
   -Dpackage="com.myaem"
-
 ```
 
 ```
 mvn archetype:generate -DarchetypeGroupId=com.day.jcr.vault -DarchetypeArtifactId=multimodule-content-package-archetype -DarchetypeVersion=1.0.0 -DarchetypeRepository=adobe-public-releases
+```
+
+on windows.
+enclose the arguments of mvn archetype:generate with double quotes ("").
+For example:
+```
+mvn archetype:generate 
+  "-DarchetypeGroupId=org.apache.maven.archetypes" 
+  "-DarchetypeArtifactId=maven-archetype-quickstart" 
+  "-DgroupId=codingvoding.org"  
+  "-DartifactId=java8-features-demo" 
+  -B
 ```
